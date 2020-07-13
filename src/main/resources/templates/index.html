@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>
+</head>
+<body>
+<header>
+
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Teste IBM</a>
+        </div>
+    </nav>
+</header>
+<main>
+    <div class="container">
+        <h4>Envio de Contas para BC</h4>
+        <form method="POST" enctype="multipart/form-data" action="/">
+            Selecione o arquivo para envio:
+            <div id="seletor" class="file-field input-field">
+            <div class="btn">
+                    <span>File</span>
+                    <input type="file" name="file" />
+                </div>
+                <div class="file-path-wrapper">
+                    <input class="file-path validate" type="text">
+                </div>
+            </div>
+            <input type ="submit" onclick="alert('Esta tarefa pode demorar alguns instantes.')" class ="btn waves-effect waves-light" value = "Enviar"/>
+
+        </form>
+    </div>
+</main>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+</html>
